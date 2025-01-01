@@ -1,5 +1,8 @@
 import React from "react";
-
+import product1 from "../../images/product-min-01.jpg";
+import product2 from "../../images/product-min-02.jpg";
+import product3 from "../../images/product-min-03.jpg";
+import blog4 from "../../images/blog-04.jpg";
 const Content = () => {
   return (
     <div>
@@ -11,7 +14,7 @@ const Content = () => {
               <div className="p-r-45 p-r-0-lg">
                 {/*  */}
                 <div className="wrap-pic-w how-pos5-parent">
-                  <img src="images/blog-04.jpg" alt="IMG-BLOG" />
+                  <img src={blog4} alt="IMG-BLOG" />
                   <div className="flex-col-c-m size-123 bg9 how-pos5">
                     <span className="ltext-107 cl2 txt-center">22</span>
                     <span className="stext-109 cl3 txt-center">Jan 2018</span>
@@ -190,7 +193,7 @@ const Content = () => {
                         href="#"
                         className="wrao-pic-w size-214 hov-ovelay1 m-r-20"
                       >
-                        <img src="images/product-min-01.jpg" alt="PRODUCT" />
+                        <img src={product1} alt="PRODUCT" />
                       </a>
                       <div className="size-215 flex-col-t p-t-8">
                         <a href="#" className="stext-116 cl8 hov-cl1 trans-04">
@@ -204,7 +207,7 @@ const Content = () => {
                         href="#"
                         className="wrao-pic-w size-214 hov-ovelay1 m-r-20"
                       >
-                        <img src="images/product-min-02.jpg" alt="PRODUCT" />
+                        <img src={product2} alt="PRODUCT" />
                       </a>
                       <div className="size-215 flex-col-t p-t-8">
                         <a href="#" className="stext-116 cl8 hov-cl1 trans-04">
@@ -218,7 +221,7 @@ const Content = () => {
                         href="#"
                         className="wrao-pic-w size-214 hov-ovelay1 m-r-20"
                       >
-                        <img src="images/product-min-03.jpg" alt="PRODUCT" />
+                        <img src={product3} alt="PRODUCT" />
                       </a>
                       <div className="size-215 flex-col-t p-t-8">
                         <a href="#" className="stext-116 cl8 hov-cl1 trans-04">

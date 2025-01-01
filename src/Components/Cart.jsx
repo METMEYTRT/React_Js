@@ -1,13 +1,18 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "./CartContext";
 
 const Cart = ({ setShowCart }) => {
+  const navigate = useNavigate();
   const [hoveredItem, setHoveredItem] = useState(null);
-  const { cart, removeFromCart } = useCart(); // Get cart and removeFromCart from context
+  const { cart, removeFromCart } = useCart();
 
   const handleRemoveItem = (itemID) => {
-    removeFromCart(itemID); // Remove the item from the cart using the context function
+    removeFromCart(itemID);
+  };
+
+  const handleCheckout = () => {
+    navigate("/features");
   };
 
   return (
@@ -173,8 +178,9 @@ const Cart = ({ setShowCart }) => {
               padding: "16px",
             }}
           >
-            <Link
+            <button
               // to="/checkout"
+              onClick={handleCheckout}
               style={{
                 display: "inline-block",
                 width: "100%",
@@ -187,7 +193,7 @@ const Cart = ({ setShowCart }) => {
               }}
             >
               Check Out
-            </Link>
+            </button>
           </div>
         )}
       </div>

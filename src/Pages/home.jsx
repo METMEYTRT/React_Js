@@ -8,7 +8,7 @@ import Footer from "../Components/Footer";
 import Back_top from "../Components/Back_top";
 import Modal from "../Components/Home/HomeModal";
 
-const home = () => {
+const Home = () => {
   const [showCart, setShowCart] = useState(false);
 
   return (
@@ -27,4 +27,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

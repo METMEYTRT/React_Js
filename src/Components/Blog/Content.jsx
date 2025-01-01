@@ -1,5 +1,10 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import Blog1 from "../../images/blog-04.jpg";
+import product1 from "../../images/product-min-01.jpg";
+import product2 from "../../images/product-min-02.jpg";
+import product3 from "../../images/product-min-03.jpg";
+import blog4 from "../../images/blog-05.jpg";
 const Content = () => {
   return (
     <div>
@@ -11,24 +16,21 @@ const Content = () => {
               <div className="p-r-45 p-r-0-lg">
                 {/* item blog */}
                 <div className="p-b-63">
-                  <a
-                    href="blog-detail.html"
-                    className="hov-img0 how-pos5-parent"
-                  >
-                    <img src="images/blog-04.jpg" alt="IMG-BLOG" />
+                  <Link to="/Blog_Detail" className="hov-img0 how-pos5-parent">
+                    <img src={Blog1} alt="IMG-BLOG" />
                     <div className="flex-col-c-m size-123 bg9 how-pos5">
                       <span className="ltext-107 cl2 txt-center">22</span>
                       <span className="stext-109 cl3 txt-center">Jan 2018</span>
                     </div>
-                  </a>
+                  </Link>
                   <div className="p-t-32">
                     <h4 className="p-b-15">
-                      <a
-                        href="blog-detail.html"
+                      <Link
+                        to="/Blog_Detail"
                         className="ltext-108 cl2 hov-cl1 trans-04"
                       >
                         8 Inspiring Ways to Wear Dresses in the Winter
-                      </a>
+                      </Link>
                     </h4>
                     <p className="stext-117 cl6">
                       Class aptent taciti sociosqu ad litora torquent per
@@ -38,7 +40,7 @@ const Content = () => {
                     <div className="flex-w flex-sb-m p-t-18">
                       <span className="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
                         <span>
-                          <span className="cl4">By</span> Admin
+                          <span className="cl4">By</span> Mey Try
                           <span className="cl12 m-l-4 m-r-6">|</span>
                         </span>
                         <span>
@@ -47,36 +49,33 @@ const Content = () => {
                         </span>
                         <span>8 Comments</span>
                       </span>
-                      <a
-                        href="blog-detail.html"
+                      <Link
+                        to="/Blog_Detail"
                         className="stext-101 cl2 hov-cl1 trans-04 m-tb-10"
                       >
                         Continue Reading
                         <i className="fa fa-long-arrow-right m-l-9" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 {/* item blog */}
                 <div className="p-b-63">
-                  <a
-                    href="blog-detail.html"
-                    className="hov-img0 how-pos5-parent"
-                  >
-                    <img src="images/blog-05.jpg" alt="IMG-BLOG" />
+                  <Link to="/Blog_Detail" className="hov-img0 how-pos5-parent">
+                    <img src={blog4} alt="IMG-BLOG" />
                     <div className="flex-col-c-m size-123 bg9 how-pos5">
                       <span className="ltext-107 cl2 txt-center">18</span>
                       <span className="stext-109 cl3 txt-center">Jan 2018</span>
                     </div>
-                  </a>
+                  </Link>
                   <div className="p-t-32">
                     <h4 className="p-b-15">
-                      <a
-                        href="blog-detail.html"
+                      <Link
+                        to="/Blog_Detail"
                         className="ltext-108 cl2 hov-cl1 trans-04"
                       >
                         The Great Big List of Men’s Gifts for the Holidays
-                      </a>
+                      </Link>
                     </h4>
                     <p className="stext-117 cl6">
                       Class aptent taciti sociosqu ad litora torquent per
@@ -95,36 +94,33 @@ const Content = () => {
                         </span>
                         <span>8 Comments</span>
                       </span>
-                      <a
-                        href="blog-detail.html"
+                      <Link
+                        to="/Blog_Detail"
                         className="stext-101 cl2 hov-cl1 trans-04 m-tb-10"
                       >
                         Continue Reading
                         <i className="fa fa-long-arrow-right m-l-9" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 {/* item blog */}
                 <div className="p-b-63">
-                  <a
-                    href="blog-detail.html"
-                    className="hov-img0 how-pos5-parent"
-                  >
+                  <Link to="/Blog_Detail" className="hov-img0 how-pos5-parent">
                     <img src="images/blog-06.jpg" alt="IMG-BLOG" />
                     <div className="flex-col-c-m size-123 bg9 how-pos5">
                       <span className="ltext-107 cl2 txt-center">16</span>
                       <span className="stext-109 cl3 txt-center">Jan 2018</span>
                     </div>
-                  </a>
+                  </Link>
                   <div className="p-t-32">
                     <h4 className="p-b-15">
-                      <a
-                        href="blog-detail.html"
+                      <Link
+                        to="/Blog_Detail"
                         className="ltext-108 cl2 hov-cl1 trans-04"
                       >
                         5 Winter-to-Spring Fashion Trends to Try Now
-                      </a>
+                      </Link>
                     </h4>
                     <p className="stext-117 cl6">
                       Class aptent taciti sociosqu ad litora torquent per
@@ -134,7 +130,7 @@ const Content = () => {
                     <div className="flex-w flex-sb-m p-t-18">
                       <span className="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
                         <span>
-                          <span className="cl4">By</span> Admin
+                          <span className="cl4">By</span> Try
                           <span className="cl12 m-l-4 m-r-6">|</span>
                         </span>
                         <span>
@@ -143,13 +139,13 @@ const Content = () => {
                         </span>
                         <span>8 Comments</span>
                       </span>
-                      <a
-                        href="blog-detail.html"
+                      <Link
+                        to="/Blog_Detail"
                         className="stext-101 cl2 hov-cl1 trans-04 m-tb-10"
                       >
                         Continue Reading
                         <i className="fa fa-long-arrow-right m-l-9" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -236,7 +232,7 @@ const Content = () => {
                         href="#"
                         className="wrao-pic-w size-214 hov-ovelay1 m-r-20"
                       >
-                        <img src="images/product-min-01.jpg" alt="PRODUCT" />
+                        <img src={product1} alt="PRODUCT" />
                       </a>
                       <div className="size-215 flex-col-t p-t-8">
                         <a href="#" className="stext-116 cl8 hov-cl1 trans-04">
@@ -250,7 +246,7 @@ const Content = () => {
                         href="#"
                         className="wrao-pic-w size-214 hov-ovelay1 m-r-20"
                       >
-                        <img src="images/product-min-02.jpg" alt="PRODUCT" />
+                        <img src={product2} alt="PRODUCT" />
                       </a>
                       <div className="size-215 flex-col-t p-t-8">
                         <a href="#" className="stext-116 cl8 hov-cl1 trans-04">
@@ -264,7 +260,7 @@ const Content = () => {
                         href="#"
                         className="wrao-pic-w size-214 hov-ovelay1 m-r-20"
                       >
-                        <img src="images/product-min-03.jpg" alt="PRODUCT" />
+                        <img src={product3} alt="PRODUCT" />
                       </a>
                       <div className="size-215 flex-col-t p-t-8">
                         <a href="#" className="stext-116 cl8 hov-cl1 trans-04">

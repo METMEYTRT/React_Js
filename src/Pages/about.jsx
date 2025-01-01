@@ -5,7 +5,7 @@ import Content from "../Components/About/Content";
 import Cart from "../Components/Cart";
 import Footer from "../Components/Footer";
 import Back_top from "../Components/Back_top";
-const about = () => {
+const About = () => {
   const [showCart, setShowCart] = useState(false);
 
   return (
@@ -20,4 +20,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

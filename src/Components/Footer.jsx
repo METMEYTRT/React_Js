@@ -4,6 +4,7 @@ import pay2 from "../images/icons/icon-pay-02.png";
 import pay3 from "../images/icons/icon-pay-03.png";
 import pay4 from "../images/icons/icon-pay-04.png";
 import pay5 from "../images/icons/icon-pay-05.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -118,25 +119,25 @@ function Footer() {
 
         <div class="p-t-40">
           <div class="flex-c-m flex-w p-b-18">
-            <a href="#" class="m-all-1">
+            <Link to="/features" class="m-all-1">
               <img src={pay1} alt="ICON-PAY" />
-            </a>
+            </Link>
 
-            <a href="#" class="m-all-1">
+            <Link to="/features" class="m-all-1">
               <img src={pay2} alt="ICON-PAY" />
-            </a>
+            </Link>
 
-            <a href="#" class="m-all-1">
+            <Link to="/features" class="m-all-1">
               <img src={pay3} alt="ICON-PAY" />
-            </a>
+            </Link>
 
-            <a href="#" class="m-all-1">
+            <Link to="/features" class="m-all-1">
               <img src={pay4} alt="ICON-PAY" />
-            </a>
+            </Link>
 
-            <a href="#" class="m-all-1">
+            <Link to="/features" class="m-all-1">
               <img src={pay5} alt="ICON-PAY" />
-            </a>
+            </Link>
           </div>
 
           <p class="stext-107 cl6 txt-center"></p>

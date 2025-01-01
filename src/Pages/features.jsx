@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 import Cart from "../Components/Cart";
 import BreakCrumb from "../Components/Shoping_Cart/BreadCrumb";
 import ShopingCart from "../Components/Shoping_Cart/Shoping_Cart";
-const features = () => {
+const Features = () => {
   const [showCart, setShowCart] = useState(false);
 
   return (
@@ -18,4 +18,4 @@ const features = () => {
   );
 };
 
-export default features;
+export default Features;

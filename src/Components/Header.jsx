@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import logo1 from "../images/icons/logo-01.png";
 import close2 from "../images/icons/icon-close2.png";
 import { Link } from "react-router-dom";
+import { useCart } from "./CartContext";
 
 const Header = ({ setShowCart }) => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const { cart } = useCart();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -107,19 +109,11 @@ const Header = ({ setShowCart }) => {
 
               <div
                 className="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
-                data-notify="2"
+                data-notify={cart.length}
                 onClick={() => setShowCart(true)}
               >
                 <i className="zmdi zmdi-shopping-cart"></i>
               </div>
-
-              <a
-                href="#"
-                className="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti"
-                data-notify="0"
-              >
-                <i className="zmdi zmdi-favorite-outline"></i>
-              </a>
             </div>
           </nav>
         </div>
@@ -234,26 +228,6 @@ const Header = ({ setShowCart }) => {
             <a href="contact.html">Contact</a>
           </li>
         </ul>
-      </div>
-
-      <div className="modal-search-header flex-c-m trans-04 js-hide-modal-search">
-        <div className="container-search-header">
-          <button className="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
-            <img src={close2} alt="CLOSE" />
-          </button>
-
-          <form className="wrap-search-header flex-w p-l-15">
-            <button className="flex-c-m trans-04">
-              <i className="zmdi zmdi-search"></i>
-            </button>
-            <input
-              className="plh3"
-              type="text"
-              name="search"
-              placeholder="Search..."
-            />
-          </form>
-        </div>
       </div>
     </header>
   );
