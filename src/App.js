@@ -7,6 +7,7 @@ import Features from "./Pages/features";
 import Product_detail from "./Pages/product_detail";
 import Blog_Detail from "./Pages/Blog_Detail";
 import Blog from "./Pages/Blog";
+import { CartProvider } from "./Components/CartContext";
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,19 +17,21 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/Blog_Detail" element={<Blog_Detail />} />
-        <Route path="/features" element={<Features />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/product_detail" element={<Product_detail />} />
-      </Routes>
-    </Router>
+    <CartProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/Blog_Detail" element={<Blog_Detail />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/product_detail" element={<Product_detail />} />
+        </Routes>
+      </Router>
+    </CartProvider>
   );
 }
 

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import iconheart1 from "../../images/icons/icon-heart-01.png";
 import iconheart2 from "../../images/icons/icon-heart-02.png";
+import { useCart } from "../CartContext";
 
 const Product = () => {
   const [activeFilter, setActiveFilter] = useState("All Product");
   const [products, setProducts] = useState([]);
+  const { addToCart } = useCart();
 
   const categories = [
     { name: "All Product", api: "https://fakestoreapi.com/products" },
@@ -48,6 +50,9 @@ const Product = () => {
 
     fetchProducts();
   }, [activeFilter]);
+  const handleAddToCart = (product) => {
+    addToCart(product);
+  };
 
   return (
     <div>
@@ -349,8 +354,9 @@ const Product = () => {
                     }}
                   />
                   <a
-                    href="#"
+                    // href="#"
                     className="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1"
+                    onClick={() => handleAddToCart(product)}
                   >
                     Add to cart
                   </a>
