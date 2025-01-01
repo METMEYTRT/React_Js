@@ -40,27 +40,51 @@ const Content = () => {
                     8 Inspiring Ways to Wear Dresses in the Winter
                   </h4>
                   <p className="stext-117 cl6 p-b-26">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc sit amet est vel orci luctus sollicitudin. Duis
-                    eleifend vestibulum justo, varius semper lacus condimentum
-                    dictum. Donec pulvinar a magna ut malesuada. In posuere
-                    felis diam, vel sodales metus accumsan in. Duis viverra dui
-                    eu pharetra pellentesque. Donec a eros leo. Quisque sed
-                    ligula vitae lorem efficitur faucibus. Praesent sit amet
-                    imperdiet ante. Nulla id tellus auctor, dictum libero a,
-                    malesuada nisi. Nulla in porta nibh, id vestibulum ipsum.
-                    Praesent dapibus tempus erat quis aliquet. Donec ac purus id
-                    sapien condimentum feugiat.
+                    Ways to Wear Dresses in the Winter Winter doesn’t mean you
+                    have to abandon your favorite dresses! With the right
+                    layering and accessories, you can stay warm and stylish
+                    while rocking your favorite frocks. Here are some versatile
+                    ways to wear dresses during the colder months:
                   </p>
                   <p className="stext-117 cl6 p-b-26">
-                    Praesent vel mi bibendum, finibus leo ac, condimentum arcu.
-                    Pellentesque sem ex, tristique sit amet suscipit in, mattis
-                    imperdiet enim. Integer tempus justo nec velit fringilla,
-                    eget eleifend neque blandit. Sed tempor magna sed congue
-                    auctor. Mauris eu turpis eget tortor ultricies elementum.
-                    Phasellus vel placerat orci, a venenatis justo. Phasellus
-                    faucibus venenatis nisl vitae vestibulum. Praesent id nibh
-                    arcu. Vivamus sagittis accumsan felis, quis vulputate
+                    1. Layer with Turtlenecks Wear a fitted turtleneck
+                    underneath sleeveless or strappy dresses. Choose neutral
+                    colors or opt for bold shades to add contrast.
+                  </p>
+                  <p className="stext-117 cl6 p-b-26">
+                    2. Add Warm Tights or Leggings Pair your dress with thermal
+                    tights or fleece-lined leggings. Experiment with fun
+                    patterns or stick to classic black for a sleek look.
+                  </p>
+                  <p className="stext-117 cl6 p-b-26">
+                    3. Embrace Sweater Dresses Opt for cozy sweater dresses made
+                    of wool or knits. Belt them at the waist for a flattering
+                    silhouette.
+                  </p>
+                  <p className="stext-117 cl6 p-b-26">
+                    4. Wear Over-the-Knee Boots Combine dresses with
+                    over-the-knee boots for added warmth and style. Perfect for
+                    mini or knee-length dresses.
+                  </p>
+                  <p className="stext-117 cl6 p-b-26">
+                    5. Layer with Chunky Sweaters Style a chunky knit sweater
+                    over a dress, creating a trendy skirt-and-top illusion. Use
+                    a belt to cinch the waist if desired.
+                  </p>
+                  <p className="stext-117 cl6 p-b-26">
+                    6. Top It with Outerwear Layer dresses with winter coats,
+                    such as tailored wool coats, puffer jackets, or trench
+                    coats. Add scarves, hats, and gloves for extra warmth.
+                  </p>
+                  <p className="stext-117 cl6 p-b-26">
+                    7. Accessorize with Warmth in Mind Include cozy accessories
+                    like infinity scarves, beanies, and fingerless gloves. Faux
+                    fur stoles or shawls add elegance to formal dresses.
+                  </p>
+                  <p className="stext-117 cl6 p-b-26">
+                    8. Opt for Maxi Dresses Maxi dresses with heavier fabrics
+                    are a winter staple. Pair with ankle boots and a tailored
+                    coat for a polished look.
                   </p>
                 </div>
                 <div className="flex-w flex-t p-t-16">

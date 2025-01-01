@@ -4,7 +4,8 @@ import Blog1 from "../../images/blog-04.jpg";
 import product1 from "../../images/product-min-01.jpg";
 import product2 from "../../images/product-min-02.jpg";
 import product3 from "../../images/product-min-03.jpg";
-import blog4 from "../../images/blog-05.jpg";
+import blog5 from "../../images/blog-05.jpg";
+import blog6 from "../../images/blog-06.jpg";
 const Content = () => {
   return (
     <div>
@@ -40,7 +41,7 @@ const Content = () => {
                     <div className="flex-w flex-sb-m p-t-18">
                       <span className="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
                         <span>
-                          <span className="cl4">By</span> Mey Try
+                          <span className="cl4">By</span> Admin Try
                           <span className="cl12 m-l-4 m-r-6">|</span>
                         </span>
                         <span>
@@ -62,7 +63,7 @@ const Content = () => {
                 {/* item blog */}
                 <div className="p-b-63">
                   <Link to="/Blog_Detail" className="hov-img0 how-pos5-parent">
-                    <img src={blog4} alt="IMG-BLOG" />
+                    <img src={blog5} alt="IMG-BLOG" />
                     <div className="flex-col-c-m size-123 bg9 how-pos5">
                       <span className="ltext-107 cl2 txt-center">18</span>
                       <span className="stext-109 cl3 txt-center">Jan 2018</span>
@@ -85,7 +86,7 @@ const Content = () => {
                     <div className="flex-w flex-sb-m p-t-18">
                       <span className="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
                         <span>
-                          <span className="cl4">By</span> Admin
+                          <span className="cl4">By</span> Admin Try
                           <span className="cl12 m-l-4 m-r-6">|</span>
                         </span>
                         <span>
@@ -107,7 +108,7 @@ const Content = () => {
                 {/* item blog */}
                 <div className="p-b-63">
                   <Link to="/Blog_Detail" className="hov-img0 how-pos5-parent">
-                    <img src="images/blog-06.jpg" alt="IMG-BLOG" />
+                    <img src={blog6} alt="IMG-BLOG" />
                     <div className="flex-col-c-m size-123 bg9 how-pos5">
                       <span className="ltext-107 cl2 txt-center">16</span>
                       <span className="stext-109 cl3 txt-center">Jan 2018</span>
@@ -130,14 +131,14 @@ const Content = () => {
                     <div className="flex-w flex-sb-m p-t-18">
                       <span className="flex-w flex-m stext-111 cl2 p-r-30 m-tb-10">
                         <span>
-                          <span className="cl4">By</span> Try
+                          <span className="cl4">By</span> Admin Try
                           <span className="cl12 m-l-4 m-r-6">|</span>
                         </span>
                         <span>
                           StreetStyle, Fashion, Couple
                           <span className="cl12 m-l-4 m-r-6">|</span>
                         </span>
-                        <span>8 Comments</span>
+                        <span>7 Comments</span>
                       </span>
                       <Link
                         to="/Blog_Detail"
@@ -148,21 +149,6 @@ const Content = () => {
                       </Link>
                     </div>
                   </div>
-                </div>
-                {/* Pagination */}
-                <div className="flex-l-m flex-w w-full p-t-10 m-lr--7">
-                  <a
-                    href="#"
-                    className="flex-c-m how-pagination1 trans-04 m-all-7 active-pagination1"
-                  >
-                    1
-                  </a>
-                  <a
-                    href="#"
-                    className="flex-c-m how-pagination1 trans-04 m-all-7"
-                  >
-                    2
-                  </a>
                 </div>
               </div>
             </div>
