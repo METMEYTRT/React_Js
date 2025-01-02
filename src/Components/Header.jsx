@@ -158,7 +158,7 @@ const Header = ({ setShowCart }) => {
         <ul className="topbar-mobile">
           <li>
             <div className="left-top-bar">
-              Free shipping for standard order over $100
+              Free shipping for standard order over $169
             </div>
           </li>
 
