@@ -4,10 +4,11 @@ import Footer from "../Components/Footer";
 import Cart from "../Components/Cart";
 import BreakCrump from "../Components/Product_Detail/BreakCrump";
 import Modal from "../Components/Product_Detail/Modal";
-import Product_detail from "../Components/Product_Detail/Product_detail";
-import Back_top from "../Components/Back_top";
-import Related_Product from "../Components/Product_Detail/Related_Product";
-const product_detail = () => {
+import ProductDetailContent from "../Components/Product_Detail/Product_detail";
+import BackTop from "../Components/Back_top";
+import RelatedProduct from "../Components/Product_Detail/Related_Product";
+
+const ProductDetail = () => {
   const [showCart, setShowCart] = useState(false);
 
   return (
@@ -15,12 +16,13 @@ const product_detail = () => {
       <Header setShowCart={setShowCart} />
       {showCart && <Cart setShowCart={setShowCart} />}
       <BreakCrump />
-      <Product_detail />
-      <Related_Product />
+      <ProductDetailContent />
+      <RelatedProduct />
       <Footer />
-      <Back_top />
+      <BackTop />
       <Modal />
     </div>
   );
 };
-export default product_detail;
+
+export default ProductDetail;
