@@ -5,6 +5,7 @@ import Cart from "../Components/Cart";
 import BreadCrumb from "../Components/Blog_Detail/BreakCrumb";
 import Content from "../Components/Blog_Detail/Content";
 import Back_top from "../Components/Back_top";
+
 const Blog_Detail = () => {
   const [showCart, setShowCart] = useState(false);
 

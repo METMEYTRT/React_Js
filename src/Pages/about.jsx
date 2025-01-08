@@ -5,6 +5,7 @@ import Content from "../Components/About/Content";
 import Cart from "../Components/Cart";
 import Footer from "../Components/Footer";
 import Back_top from "../Components/Back_top";
+
 const About = () => {
   const [showCart, setShowCart] = useState(false);
 
