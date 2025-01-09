@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo1 from "../images/icons/logo-01.png";
+import logo1 from "../images/icons/logo-03.png";
 import close2 from "../images/icons/icon-close2.png";
 import { Link } from "react-router-dom";
 import { useCart } from "./CartContext";
