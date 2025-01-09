@@ -10,7 +10,7 @@ const HomeSlider = () => {
         <div class="slick1">
           <div
             className="item-slick1"
-            style={{ backgroundImage: `url(${slide1})` }}
+            style={{ backgroundImage: `url(${slide2})` }}
           >
             <div class="container h-full">
               <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
