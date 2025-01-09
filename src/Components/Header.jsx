@@ -70,9 +70,9 @@ const Header = ({ setShowCart }) => {
           }}
         >
           <nav className="limiter-menu-desktop container">
-            <a href="#" className="logo">
+            <Link to="/home" className="logo">
               <img src={logo1} alt="IMG-LOGO" />
-            </a>
+            </Link>
 
             <div className="menu-desktop">
               <ul className="main-menu">
